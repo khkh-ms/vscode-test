@@ -102,6 +102,7 @@ async function go() {
 			});
 		}
 	} catch (err) {
+		console.log(err);
 		console.error('Failed to run tests');
 		process.exit(1);
 	}
